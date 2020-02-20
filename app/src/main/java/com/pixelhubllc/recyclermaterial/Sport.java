@@ -3,8 +3,8 @@ package com.pixelhubllc.recyclermaterial;
 public class Sport {
 
     private final int imageResource;
-    private String title;
-    private String info;
+    private final String title;
+    private final String info;
 
     public Sport(String title, String info, int imageResource) {
         this.title = title;
